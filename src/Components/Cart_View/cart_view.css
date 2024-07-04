@@ -38,7 +38,7 @@
     @apply flex flex-col gap-4 sm:w-[80%] sm:justify-center mx-auto sm:flex-row sm:gap-16 sm:border-4 sm:border-b-0 sm:border-slate-950 sm:rounded-2xl sm:px-10 sm:py-7
 }
 .checkout-options li{
-    @apply text-white font-bold text-center py-2 px-4 sm:px-9 rounded-xl sm:text-[1.3em] cursor-pointer
+    @apply text-white font-bold text-center py-2 px-9 sm:px-9 text-[1.2em] rounded-xl sm:text-[1.3em] cursor-pointer
 }
 .checkout-options .mpesa{ 
     @apply bg-green-600 hover:bg-green-800 shadow-xl shadow-black

@@ -1,6 +1,6 @@
 /* Navbar */
 .navbar{
-    @apply bg-slate-950 fixed w-full rounded-b-3xl shadow-lg shadow-slate-950
+    @apply bg-slate-950 fixed w-full rounded-br-3xl sm:rounded-b-3xl shadow-lg shadow-slate-950
 }
 .logo-menu{
     @apply flex justify-between items-center px-2 text-white
@@ -30,13 +30,13 @@
     @apply w-fit sm:hidden
 }
 #toggle-bar-wrapper .toggle-bar{
-    @apply bg-green-500 w-fit h-[70vh] fixed px-2 py-1 flex flex-row-reverse justify-start items-start rounded-r-xl
+    @apply bg-slate-950 w-fit h-[70vh] text-white fixed px-2 py-1 flex flex-row-reverse justify-start items-start rounded-r-xl
 } 
 #toggle-bar-wrapper .toggle-bar .toggle-bar-list{
-    @apply flex flex-col justify-center w-fit py-2 gap-4
+    @apply flex flex-col justify-center w-fit py-2 gap-4 
 }
 #toggle-bar-wrapper .toggle-bar .toggle-bar-list li{
-    @apply w-fit text-lg text-black font-semibold 
+    @apply w-fit text-lg text-white font-semibold 
 }
 .link-menu{
     @apply hidden sm:flex mx-auto text-white justify-center items-center gap-10 py-4 text-[1.2em]
@@ -71,10 +71,10 @@
 
 /* Dynamic_nav */
 .dynamic-nav{
-    @apply w-full fixed left-0 mx-auto bg-slate-950 rounded-b-3xl shadow-lg shadow-slate-950
+    @apply w-full fixed left-0 mx-auto bg-slate-950 rounded-b-3xl shadow-lg shadow-slate-950 py-1 px-2 
 }
 .dynamic-nav-header{
-    @apply flex justify-between items-center px-4 text-white
+    @apply flex justify-between items-center px-4 text-white 
 }
 .dynamic-nav-header .back-arrow{
     @apply w-6 h-6 sm:hidden

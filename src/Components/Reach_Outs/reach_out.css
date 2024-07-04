@@ -23,13 +23,13 @@
     @apply text-center text-lg font-bold border-x-4 border-slate-950 rounded-2xl w-fit mx-auto py-4 px-2
 } 
 .message{
-    @apply w-fit mx-auto flex-col
+    @apply w-fit mx-auto flex flex-col justify-center
 }
 .message h2{
     @apply text-xl font-bold text-center underline
 }
 .message form{
-    @apply flex flex-col gap-4 py-3 sm:grid grid-cols-2 w-fit
+    @apply flex flex-col gap-4 py-3 sm:grid grid-cols-2 w-fit mx-auto
 }
 .message form input,textarea{
     @apply border-2 text-center border-slate-400 rounded-xl px-3 py-2 outline-none
