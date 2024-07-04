@@ -91,7 +91,7 @@
 
 /* Items_Display */
 .items_display_container{
-    @apply pt-[7.5em] sm:pt-[11.9em] 
+    @apply pt-[7.5em] sm:pt-[11.9em] min-h-screen
 }
 .items_display{
     @apply w-fit mx-auto flex flex-col justify-center items-center gap-4 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-12
