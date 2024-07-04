@@ -66,7 +66,7 @@ export const Cart = () => {
             <p>
               <strong>No available items in your cart!</strong>
             </p>
-            <button onClick={() => navigate("/")}>Go Shop!</button>
+            <button onClick={() => navigate("/")} className="bg-slate-950 text-white px-3 py-2 rounded-2xl">Go Shop!</button>
           </div>
         )}
       </div>
