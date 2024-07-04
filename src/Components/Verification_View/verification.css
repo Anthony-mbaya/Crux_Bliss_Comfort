@@ -12,7 +12,7 @@
     @apply flex flex-col gap-3
 }
 .verify-container form input{
-    @apply border rounded px-3 py-2 text-center text-[1.2em] outline-none focus:bg-slate-200 text-slate-950
+    @apply border rounded px-3 py-2 text-center sm:text-[1.2em] outline-none focus:bg-slate-200 text-slate-950
 }
 .verify-container form button{
     @apply bg-green-600 rounded px-3 py-2 hover:bg-green-400 transition-colors
