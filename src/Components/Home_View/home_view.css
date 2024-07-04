@@ -1,0 +1,146 @@
+/* Navbar */
+.navbar{
+    @apply bg-slate-950 fixed w-full rounded-b-3xl shadow-lg shadow-slate-950
+}
+.logo-menu{
+    @apply flex justify-between items-center px-2 text-white
+}
+.logo{
+    @apply flex flex-col justify-center items-center w-fit
+}
+.logo .logo-icon{
+    @apply w-10 h-10 mx-auto
+}
+.logo h1{
+    @apply text-lg text-center w-fit mx-auto
+}
+.search-bar{
+    @apply flex justify-center items-center w-full px-5 sm:px-[10em] pb-3
+}
+.search-bar .search-input{
+    @apply w-full h-10 px-2 text-center text-[1.2em] rounded-xl focus:bg-slate-100 focus:text-slate-950 sm:font-bold
+}
+.menu-toggler{
+    @apply p-2 w-fit h-fit sm:hidden
+}
+.menu-toggler .menu-icon{
+    @apply w-6 h-6
+}
+#toggle-bar-wrapper{
+    @apply w-fit sm:hidden
+}
+#toggle-bar-wrapper .toggle-bar{
+    @apply bg-green-500 w-fit h-[70vh] fixed px-2 py-1 flex flex-row-reverse justify-start items-start rounded-r-xl
+} 
+#toggle-bar-wrapper .toggle-bar .toggle-bar-list{
+    @apply flex flex-col justify-center w-fit py-2 gap-4
+}
+#toggle-bar-wrapper .toggle-bar .toggle-bar-list li{
+    @apply w-fit text-lg text-black font-semibold 
+}
+.link-menu{
+    @apply hidden sm:flex mx-auto text-white justify-center items-center gap-10 py-4 text-[1.2em]
+} 
+.link-menu .links ul{
+    @apply flex gap-7
+}
+.link-menu .links ul li{
+    @apply hover:text-slate-500
+}
+.link-menu .links ul li select{
+    @apply px-2 rounded-lg text-slate-950 bg-white
+}
+.link-menu .links ul li select option{
+    @apply rounded-lg  bg-slate-950 text-white
+}
+.link-menu .user_cart{
+    @apply flex gap-10
+}
+.link-menu .user_cart .cart{
+    @apply flex
+}
+.shopping-cart-icon{
+    @apply w-7 h-7 hover:text-slate-500
+}
+.link-menu .user_cart .user ul{
+    @apply flex gap-4
+}
+.link-menu .user_cart .user ul li{
+    @apply hover:text-slate-500
+}
+
+/* Dynamic_nav */
+.dynamic-nav{
+    @apply w-full fixed left-0 mx-auto bg-slate-950 rounded-b-3xl shadow-lg shadow-slate-950
+}
+.dynamic-nav-header{
+    @apply flex justify-between items-center px-4 text-white
+}
+.dynamic-nav-header .back-arrow{
+    @apply w-6 h-6 sm:hidden
+}
+.dynamic-nav-header .logo{
+    @apply flex flex-col justify-center items-center w-fit
+}
+.dynamic-nav-header .logo .logo-icon{
+    @apply w-10 h-10 mx-auto
+}
+.dynamic-nav-header .logo h1{
+    @apply text-lg text-center w-fit mx-auto
+}
+
+/* Items_Display */
+.items_display_container{
+    @apply pt-[7.5em] sm:pt-[11.9em] 
+}
+.items_display{
+    @apply w-fit mx-auto flex flex-col justify-center items-center gap-4 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-12
+}
+.items_display .item{
+    @apply flex flex-col justify-center items-center gap-1 border-2 border-b-0 border-slate-950 rounded-xl px-1
+}
+.items_display .item .item-image{
+    @apply w-64 h-48 border-b-2 border-slate-950 rounded-b-lg sm:w-[18rem] sm:h-[18rem] lg:w-[22rem] lg:h-[22rem]
+}
+.items_display .item h3{
+    @apply text-xl font-bold px-2 rounded-lg border-x-4 border-slate-950
+}
+.items_display .item p{
+    @apply text-[1.2em] font-bold text-slate-950
+}
+.items_display .item .add-cart-btn{
+    @apply bg-slate-900 text-slate-50 font-bold px-3 py-2 rounded-xl hover:bg-slate-200 hover:text-slate-900 hover:border-x-4 hover:border-slate-950 transition-all
+}
+
+/* Footer */
+.footer{
+    @apply w-full mt-8 px-2 py-3 bg-slate-950 text-slate-50 flex flex-col justify-center items-center sm:items-start sm:flex-row
+}
+.company_info{
+    @apply w-fit px-5 sm:w-[37rem] md:w-[40rem] lg:w-[43rem] sm:flex sm:flex-col sm:justify-start sm:items-start sm:px-4
+}
+.company_info .details{
+    @apply flex flex-col justify-start items-start gap-3 
+}
+.company_info .details p{
+    @apply text-slate-400
+}
+.handles{
+    @apply w-full
+}
+.handles ul{
+    @apply flex justify-center items-center gap-4 py-3
+}
+.handles ul li .handles-icon{
+    @apply text-slate-400 w-5 h-5 cursor-pointer hover:text-slate-200
+}
+.footer-links-container{
+    @apply grid grid-cols-2 w-full gap-3 sm:grid-cols-3
+}
+.footer-links{
+    @apply w-fit mx-auto
+}
+.footer-links h2{
+    @apply text-slate-400 text-[1.1em] font-bold underline cursor-pointer
+}
+

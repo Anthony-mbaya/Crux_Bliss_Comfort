@@ -1,0 +1,39 @@
+/* Location */
+.location-frame{
+    @apply w-fit sm:w-[60rem] mx-auto pt-[5rem] sm:pt-[10rem]
+}
+
+/* contact */
+.contact-container{
+    @apply flex flex-col gap-6 w-fit mx-auto py-20 sm:py-36
+}
+.contact-container h1{
+    @apply text-xl font-bold text-center underline
+}
+.contact-container .address-text{
+    @apply text-sm font-bold text-start w-fit mx-auto px-3 gap-3 
+}
+.contact-container .address-text p{
+    @apply text-sm font-normal text-start w-fit mx-auto px-3
+}
+.address-container{
+    @apply flex justify-between gap-4 flex-wrap
+}
+.address-container .address{
+    @apply text-center text-lg font-bold border-x-4 border-slate-950 rounded-2xl w-fit mx-auto py-4 px-2
+} 
+.message{
+    @apply w-fit mx-auto flex-col
+}
+.message h2{
+    @apply text-xl font-bold text-center underline
+}
+.message form{
+    @apply flex flex-col gap-4 py-3 sm:grid grid-cols-2 w-fit
+}
+.message form input,textarea{
+    @apply border-2 text-center border-slate-400 rounded-xl px-3 py-2 outline-none
+} 
+.message form button{
+    @apply bg-slate-900 text-white font-bold rounded-xl px-3 py-2 hover:bg-slate-800
+}

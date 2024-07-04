@@ -1,0 +1,24 @@
+.user-profile{
+    @apply h-screen pt-32 sm:w-full sm:justify-center sm:items-start text-slate-950 flex flex-col w-fit px-2  gap-5 mx-auto sm:border-2 sm:h-fit
+} 
+.important-credentials {
+    @apply flex flex-col sm:justify-center gap-2 border-x-4 border-slate-950 sm:border-t-4 sm:border-x-0 rounded-2xl px-3 py-6 w-fit sm:w-[70%] mx-auto
+}
+.important-credentials .user-icon{
+    @apply w-14 h-14 rounded-full bg-gray-500 mx-auto
+}
+.important-credentials h2{
+    @apply text-xl font-bold text-center
+}
+.other-info-wrapper{
+    @apply flex flex-col sm:flex-row gap-2 sm:gap-5 sm:justify-around w-fit mx-auto
+}
+.other-info{
+    @apply flex flex-col sm:justify-center gap-2 border-x-2 sm:border-none rounded-2xl px-3 py-6 bg-slate-300 sm:px-9 
+}
+.other-info h2{
+    @apply text-lg 
+}
+.arrow-left{
+    @apply text-2xl text-white bg-slate-950 p-2 w-10 h-10 hover:text-slate-500 rounded-t-xl fixed
+}

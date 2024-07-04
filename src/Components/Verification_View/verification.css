@@ -1,0 +1,25 @@
+/* verify-container */
+.verify-container {
+    @apply flex flex-col gap-3 justify-center items-center w-fit mx-auto mt-20 bg-slate-950 px-2 py-14 sm:px-20 sm:py-36 text-white rounded-2xl shadow-2xl shadow-slate-950
+}
+.verify-container h1{
+    @apply text-2xl font-bold text-center
+}
+.verify-container .icon{
+    @apply w-12 h-12 text-gray-400
+}
+.verify-container form{
+    @apply flex flex-col gap-3
+}
+.verify-container form input{
+    @apply border rounded px-3 py-2 text-center text-[1.2em] outline-none focus:bg-slate-200 text-slate-950
+}
+.verify-container form button{
+    @apply bg-green-600 rounded px-3 py-2 hover:bg-green-400 transition-colors
+}
+.verify-container p{
+    @apply text-sm text-center text-gray-400
+}
+.verify-container p span{
+    @apply text-blue-500 underline cursor-pointer
+}
