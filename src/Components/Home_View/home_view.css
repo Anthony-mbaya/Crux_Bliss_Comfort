@@ -18,7 +18,7 @@
     @apply flex justify-center items-center w-full px-5 sm:px-[10em] pb-3
 }
 .search-bar .search-input{
-    @apply w-full h-10 px-2 text-center text-[1.2em] rounded-xl focus:bg-slate-100 focus:text-slate-950 sm:font-bold
+    @apply w-full py-2 sm:h-10 px-2 text-center sm:text-[1.2em] rounded-xl focus:bg-slate-100 focus:text-slate-950 sm:font-bold
 }
 .menu-toggler{
     @apply p-2 w-fit h-fit sm:hidden
